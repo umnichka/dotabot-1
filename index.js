@@ -142,4 +142,4 @@ client.on("message", async message => {
 });
 
 // Heroku login
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.token);
